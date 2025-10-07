@@ -149,7 +149,6 @@ if exist "%profiles%\%%u\AppData\Local\Microsoft\Windows\WER\ReportArchive" cd "
 if exist "%profiles%\%%u\AppData\Local\Microsoft\Windows\WER\ReportArchive" del *.* /F /S /Q /A: R /A: H /A: A
 if exist "%profiles%\%%u\AppData\Local\Microsoft\Windows\WER\ReportArchive" rmdir /s /q "%profiles%\%%u\AppData\Local\Microsoft\Windows\WER\ReportArchive"
 
-
 cls
 title Deletando %Systemroot%\Temp
 if exist "%Systemroot%\Temp" echo Deletando....
@@ -215,8 +214,6 @@ if exist "%profiles%\%%u\AppData\Local\Vivaldi\User Data\Default\Cache" del *.* 
 if exist "%profiles%\%%u\AppData\Local\Vivaldi\User Data\Default\Cache" rmdir /s /q "%profiles%\%%u\AppData\Local\Vivaldi\User Data\Default\Cache"
 
 )
-
-cls
 echo ===============================
 echo #      Limpeza efetuada       #
 echo ===============================
@@ -229,4 +226,5 @@ cls
 echo Tchau^!^!^!
 pause
 exit
+
 
